@@ -19,7 +19,7 @@ THUMB_H=135
 SPACE=12
 
 # Final image sizes
-FINAL_W=$(((THUMB_W * (COLS)) + (SPACE * (COLS))))
+FINAL_W=$(((THUMB_W * (COLS)) + (SPACE * (COLS)) + (SPACE * 8)))
 FINAL_H=$(((THUMB_H * (ROWS + 1)) + (SPACE * (ROWS))))
 
 # Validation
